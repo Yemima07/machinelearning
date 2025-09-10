@@ -1,0 +1,70 @@
+Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on developing
+algorithms that allow computers to learn from data and make decisions or predictions without being
+explicitly programmed. Essentially, it enables systems to improve their performance on a task over
+time based on experience.
+
+Key Concepts:
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Semi-supervised Learning 
+
+1.Supervised Learning:
+Supervised Learning is a type of machine learning where the model is trained on labeled data. Each
+training example consists of an input and a corresponding output label. The goal is for the model to
+learn the mapping between the input and output, so it can predict the output for new, unseen inputs.
+Types of Supervised Learning:
+Regression
+Classification 
+
+1.1 Regression:
+Regression is a type of supervised learning in machine learning where the goal is to predict a
+continuous numeric value based on input features. It models the relationship between a dependent variable
+(what you want to predict) and one or more independent variables (the features).
+Types of Regression:
+Linear Regression
+Polynomial Regression
+Ridge and Lasso Regression
+DecisionTree
+RandomForest
+AdaBoost
+GraadientBoost
+XGBoost
+Cat Boost
+Support Vector Regression (SVR) 
+
+1.1.1 Linear regression:
+Linear regression is a fundamental supervised learning algorithm used to model the relationship
+between a dependent variable (target) and one or more independent variables (features). The objective of
+linear regression is to find the best-fitting line (or hyperplane) that minimizes the difference between the
+actual values and the predicted values
+
+Types of Linear Regression:
+Simple Linear Regression:
+Models the relationship between two variables—one independent variable and one
+dependent variable. For simple linear regression, the equation of the model is: 𝑦=𝛽0+𝛽1𝑥+𝜖
+y: Dependent variable (target).
+x: Independent variable (input feature)
+β0: Intercept (the value of 𝑦 when x=0).
+𝛽1: Coefficient or slope of the line (how much y changes for a unit change in x).
+ϵ: Error term (the difference between actual and predicted values).
+Multiple Linear Regression:
+Models the relationship between a dependent variable and two or more independent
+variables. For multiple linear regression, the model equation is: y=β0+β1x1+β2x2+⋯+βnxn+ϵ
+Fitting the Model (Ordinary Least Squares - OLS):
+the method used to estimate the coefficients (𝛽0, 𝛽1,…,𝛽𝑛) in linear regression. OLS works by
+minimizing the sum of squared differences between the actual and predicted values, i.e., minimizing the MSE.
+parameters used in linear regression
+Coefficients (Weights): A coefficient indicates how much the dependent variable changes for a one-unit
+change in the corresponding independent variable, assuming all other variables are held constant.
+Intercept: The intercept is the value of the dependent variable when all independent variables
+(features) are zero. It's a constant that shifts the line (or hyperplane) vertically.
+Learning Rate: The learning rate (α) is used when training the model using gradient descent (an
+optimization algorithm). It controls the size of the steps taken to update the coefficients during training. A
+smaller learning rate leads to smaller updates, allowing more precise convergence but at the cost of slower
+training. A larger learning rate speeds up training but risks overshooting the optimal solution.
+
+Cost Function: The cost function measures how well the model's predictions match the actual
+values. In linear regression, the most commonly used cost function is Mean Squared Error (MSE),
+which quantifies the squared difference between predicted and actual values.
+ 
